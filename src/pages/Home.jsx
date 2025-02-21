@@ -1,10 +1,12 @@
-import Header from "../componets/Header/header";
+import Button from "../componets/Button/button";
+import Header from "../componets/Header/Header";
 import Footer from "../componets/footer/footer";
 
 function Home() {
   return (
     <>
-      <Header/>
+      <Header />
+      <Button buttonStyle="primary">ola</Button>
       <Footer/>
   </>
   
