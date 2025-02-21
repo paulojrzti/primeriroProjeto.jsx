@@ -5,4 +5,4 @@ function projects() {
     </>
   );
 }
-export default Projects;
+export default projects;

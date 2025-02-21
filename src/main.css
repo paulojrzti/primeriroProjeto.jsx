@@ -1,10 +1,11 @@
 /*font DM Serif Display*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-
+/*font Jost*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "jost" sans-serif;
+  font-family: "Jost", serif;
   font-weight: 400;
   color: #292f36;
   background-color: #fff;
