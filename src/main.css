@@ -32,6 +32,17 @@ a {
 .tertiary-color {
   background-color: #f6f6f6;
 }
+.gray-1-color {
+  color:#4D5053;
+}
+/* typography */
+h1 h2 h3 h4 h5 h6 {
+  font-family: "DM Serif Display", serif;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2.5px;
+}
 /* GRID */
 .container {
   margin: 0 auto;
@@ -72,6 +83,9 @@ a {
 }
 .text-left {
   text-align: left;
+}
+.p-0 {
+  padding: 0;
 }
 @media (max-width: 768px) {
   .container {

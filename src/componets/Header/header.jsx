@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 //ASSETS
-import logo from "../assets/dnc-logo.svg";
-import "../componets/header.css";
+import logo from "../../assets/dnc-logo.svg";
+import "../../componets/header/header.css";
+
 function header() {
   return (
     <header>
