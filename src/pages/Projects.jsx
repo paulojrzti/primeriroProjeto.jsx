@@ -1,7 +1,17 @@
+import Header from "../componets/Header/Header";
+import Footer from "../componets/footer/footer";
+import Banner from "../componets/Banner/banner";
+import Projectlist from "../componets/ProjectsList/projectsList";
 function projects() {
   return (
     <>
-      <h1>Projects</h1>
+      <Header />
+      <Banner title="Projects" image="projects.svg"></Banner>
+      <div className="container">
+        <Projectlist></Projectlist>
+      </div>
+      <Footer />
+    
     </>
   );
 }

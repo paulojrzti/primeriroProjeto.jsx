@@ -1,8 +1,10 @@
+import Header from "../componets/Header/Header";
+import Footer from "../componets/footer/footer";
+import Banner from "../componets/Banner/banner";
 function contact() {
   return (
-    <div>
-      <h1>Contact</h1>
-    </div>
+   <>
+  </>
   );
 }
 export default contact;
